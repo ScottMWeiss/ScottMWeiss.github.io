@@ -19,7 +19,7 @@ Original code sample:
 ![Java code](images/ScreenshotCS360Java.jpg)
 
 Enhanced code sample:
-![Kotlin code](images/ScreenshotCS360Kotlin.jpg)
+![Kotlin code](images/ScreenshotCS499Kotlin.jpg)
 
 **Reflection:**  One aspect that was learned was learning all of the different aspects of the new language in how that related to the older code, in how that changed how the code looked overall and in what ways the new code would interact with each other.  One challenge that was faced was ensuring that proper program functionality was maintained through the conversion process. Ensuring to run the project and go through the different steps of the app while watching other screens such as the database entries to ensure none of the aspects of the app were nonfunctional.
 
