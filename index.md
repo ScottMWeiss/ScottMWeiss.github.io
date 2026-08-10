@@ -66,7 +66,7 @@ Attempts to correct this involved ways such as trying to slow down the program t
 
 In part of my research on this subject in my attempts to get it fully operational, I found examples of Firebase/Firestore being used in Android Studio, so I know it’s possible in the long run. However, I believe that due to the original synchronous nature of how my overall program was written as it was originally written with using SQLite to be used, I believe the entire program would have to be rewritten with the new specific database in mind in order for it to function properly, with writing classes specifically designed with using asynchronous programming methods given the nature of the new database. 
 
-In an attempt to still implement security on the original SQLite database, I implemented another innovative tool called SQLCipher in order to seek to encrypt at least the user information in the user database, which I have included the license information later in this narrative. (*SQLCipher Community Edition - Open Source Information | Zetetic*, n.d.)
+In an attempt to still implement security on the original SQLite database, I implemented another innovative tool called SQLCipher in order to seek to encrypt at least the user information in the user database, which I have included the license information later in this narrative. (*SQLCipher Community Edition - Open Source Information / Zetetic*, n.d.)
 
 SQLCipher Imports:
 ![SQLCipher](images/ScreenshotEncryption1.jpg)
