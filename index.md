@@ -90,13 +90,13 @@ Overall, there were challenges met with this final enhancement. Some of the init
 
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Original%20Artifact/WeissCS360project3WeightTrackApp.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Four%20Enhancement%20Three%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/WeissCS499EnhancementThree.zip)
 
-The license information below was pulled from the Zetetic website about using the SQLCipher Community Edition of the program. (*SQLCipher Community Edition - Open Source Information | Zetetic*, n.d.)
+The license information below was pulled from the Zetetic website about using the SQLCipher Community Edition of the program. (*SQLCipher Community Edition - Open Source Information / Zetetic*, n.d.)
 
 [SQLCipher License Information](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/SQLCipher%20License%20Information)
 
 # References
 PhilJay. (n.d.). *GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.* GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
 
-*SQLCipher Community Edition - Open Source Information | Zetetic*. (n.d.). [https://www.zetetic.net/sqlcipher/community/](https://www.zetetic.net/sqlcipher/community/)
+*SQLCipher Community Edition - Open Source Information / Zetetic*. (n.d.). [https://www.zetetic.net/sqlcipher/community/](https://www.zetetic.net/sqlcipher/community/)
 
 Yilmaz, V. (2019, November 27). *Kotlin Line Chart.* Medium. [https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1](https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1)
