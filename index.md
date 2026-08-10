@@ -15,5 +15,8 @@ The following code review video goes over the previous original artifact, and go
  
 The artifact itself for this enhancement was improved by moving the code from its original code being Java, over to the new language of Kotlin. Some additional aspects were improved such as cleaning up unused variables and imports or removing commented out test code that remained from the original project.
 
+Original code sample: 
+![Java code](images/ScreenshotCS360Java.jpg)
+
 **Reflection:**  One aspect that was learned was learning all of the different aspects of the new language in how that related to the older code, in how that changed how the code looked overall and in what ways the new code would interact with each other.  One challenge that was faced was ensuring that proper program functionality was maintained through the conversion process. Ensuring to run the project and go through the different steps of the app while watching other screens such as the database entries to ensure none of the aspects of the app were nonfunctional.
 
