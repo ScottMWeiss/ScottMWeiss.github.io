@@ -24,6 +24,8 @@ The second enhancement, for the second category of algorithms and data structure
 
 The third enhancement, for the third and last category of databases, set out to replace the current database of the existing Android Studio app, which was SQLite, with a new database. In this case, using Firebase/Firestore. This enhancement not only used an innovative tool, but also displays that a security mindset is at the forefront, as according to its documentation, the data would automatically be encrypted upon being written to Cloud Firestore (*Server-side encryption / Firestore / Firebase*, n.d.).  
 
+[Self Assessment and Portfolio Summary](https://github.com/ScottMWeiss/CS499/blob/main/CS%20499%20-%20Self%20Assessment%20-%20Weiss.docx)
+
 # Code Review
 
 The following code review video goes over the original artifact, and goes into each enhancement that will be performed and various improvements that will be implemented.
