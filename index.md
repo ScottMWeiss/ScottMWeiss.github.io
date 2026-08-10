@@ -47,8 +47,33 @@ Some challenges that were faced were mainly issues with the tool itself. It’s 
 
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Original%20Artifact/WeissCS360Files.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Three%20Enhancement%20Two%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Enhanced%20Artifact/WeissCS499EnhancementTwo.zip)
 
+# Category Three: Databases
+## Narrative
+**Description:**  The artifact chosen for this enhancement was the same CS 360 Android Studio project used for the first two enhancements, which was created earlier this year in the final part of the March-April 2026 SNHU term. The project itself allowed the students to choose from three potential situations, in which I chose the weight tracking project. This project would then allow a user to create an account, use that information to login, and then would be able to enter in weight information to track their progress towards their goal.
+
+**Justification:**  I chose this artifact originally to enhance for two main reasons: First, it was a more recently finished project that was fresher in my memory to make better changes to. Second, this particular project was one of the few projects during a student's time at SNHU where the entire project was student created, being built from the ground up from scratch and could show more original work that was created and showcase that original talent.
+
+For this particular enhancement for the artifact, it was sought to be improved by switching the data being used from being in the native SQLite database used by Android Studio, over to the Firebase/Firestore database stored online. Part of this was achieved, as shown below:
+
+Firebase/Firestore Sample:
+![Firebase/Firestore](images/ScreenshotFirebase.jpg)
+
+In the Firebase/Firestore Sample image, it can be seen that writing the data to the database was successful. However, there became problems later when pulling the data from the database, which will be described in more detail later in this narrative.
+
+**Reflection:**  One of the things I learned when working on this enhancement was more initial research needs to be done on the specifics of something before planning to implement. While writing data to the new database was easy, bringing that data back to the program to use was the main problem, as it turns out Firebase/Firestore is asynchronous. For example, when looking to call the database to check if the user credentials were accurate, it called to another function in the program to do so, and would return whether it was true or false. So while my program initially was calling the data to be requested, the rest of the function would continue to run normally regardless of whether the data had been returned or not. So the user credentials were being returned as false even if they were true, and the database call would later return as much but just not in time.
+
+Attempts to correct this involved ways such as trying to slow down the program to give time for the call to operate, or implement asynchronous programming methods to be able to handle the call more appropriately, or even moving the part of the process that called the database to function sooner. However, all of these proved ineffective. Part of the asynchronous attempts were trying to use Kotlin coroutines and suspension methods, however these proved ineffective as they can only be used in very specific ways that were not usable in my program in its current state, such as suspension only being allowed to be used by other suspension classes, and having to make each method a suspension all the way back to the OnViewCreated method in the fragment screen, however the OnViewCreated is not allowed to be used in such a way so those methods were unable to be used.
+
+In part of my research on this subject in my attempts to get it fully operational, I found examples of Firebase/Firestore being used in Android Studio, so I know it’s possible in the long run. However, I believe that due to the original synchronous nature of how my overall program was written as it was originally written with using SQLite to be used, I believe the entire program would have to be rewritten with the new specific database in mind in order for it to function properly, with writing classes specifically designed with using asynchronous programming methods given the nature of the new database. 
+
+In an attempt to still implement security on the original SQLite database, I implemented another innovative tool called SQLCipher in order to seek to encrypt at least the user information in the user database, which I have included the license information later in this narrative. (*SQLCipher Community Edition - Open Source Information | Zetetic*, n.d.)
+
+SQLCipher Imports:
+![SQLCipher](images/ScreenshotEncryption1.jpg)
+
+
 
 # References
-PhilJay. (n.d.). GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations. GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
+PhilJay. (n.d.). *GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.* GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
 
-Yilmaz, V. (2019, November 27). Kotlin Line Chart. Medium. [https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1](https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1)
+Yilmaz, V. (2019, November 27). *Kotlin Line Chart.* Medium. [https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1](https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1)
