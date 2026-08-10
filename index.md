@@ -34,10 +34,10 @@ Enhanced Code Sample:
 This specific enhancement for the artifact was improved by adding in a new graph screen to visually see the data entered in by the user, which can be seen in the images below. 
 
 Graph Code Section:
-![Graph Code Section](images/GraphCodeSectionjpg.jpg)
+![Graph Code Section](images/ScreenshotGraphCodeSectionjpg.jpg)
 
 Graph Fragment Screen Sample:
-![Graph Fragment](images/GraphFragmentScreen.jpg)
+![Graph Fragment](images/ScreenshotGraphFragmentScreen.jpg)
 
 In the Graph Fragment Screen Sample, the graph fragment screen is shown running in the app in Android Studio using sample weight data entered into the database. As Android Studio seems to lack the native ability to make graphs itself, outside tools were necessary to assist in this process. For this enhancement, the tool MPAndroidChart (PhilJay, n.d.) was used to take data from the database and display it into a graph, as well as referencing other material for use in the coding shown in the Graph Code Section in order to understand and implement the necessary code, such as from Yilmaz (2019).
 
@@ -49,6 +49,6 @@ Some challenges that were faced were mainly issues with the tool itself. It’s 
 
 
 # References
-PhilJay. (n.d.). GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations. GitHub. https://github.com/PhilJay/MPAndroidChart/tree/master
+PhilJay. (n.d.). GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations. GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
 
-Yilmaz, V. (2019, November 27). Kotlin Line Chart. Medium. https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1
+Yilmaz, V. (2019, November 27). Kotlin Line Chart. Medium. [https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1](https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1)
