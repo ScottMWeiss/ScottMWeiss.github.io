@@ -18,5 +18,9 @@ The artifact itself for this enhancement was improved by moving the code from it
 Original code sample: 
 ![Java code](images/ScreenshotCS360Java.jpg)
 
+Enhanced code sample:
+![Kotlin code](images/ScreenshotCS360Kotlin.jpg)
+
 **Reflection:**  One aspect that was learned was learning all of the different aspects of the new language in how that related to the older code, in how that changed how the code looked overall and in what ways the new code would interact with each other.  One challenge that was faced was ensuring that proper program functionality was maintained through the conversion process. Ensuring to run the project and go through the different steps of the app while watching other screens such as the database entries to ensure none of the aspects of the app were nonfunctional.
 
+[Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Original%20Artifact/WeissCS360Files.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Two%20Enhancement%20One%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Enhanced%20Artifact/WeissCS499EnhancementOne.zip)
