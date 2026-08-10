@@ -1,9 +1,32 @@
 # Introduction and Self Assessment
--------Insert Text Later-------
+
+My name is Scott, and I began pursuing my degree in Computer Science in the fall of 2024. While working full-time while also going to school, utilizing time management has been essential throughout the program, while also further developing problem-solving skills from working through projects, and learning to adapt to new challenges. 
+
+Throughout the program, I’ve had to collaborate in a team environment through regular discussions as well as working together to solve complex problems. Through the assignments that I’ve worked on, I would consider, “Who I was designing this for? Who might collaborate on this in the future? Who might be a stakeholder on this?” Thinking about these and having this mindset helps to put more focus on creating more professional code that would be more user friendly that could be collaborated on. 
+
+I believe that I’ve gained proficiency in targeted areas such as data structures and algorithms, software design and engineering, and security. These aspects have been shown in this ePortfolio through the three enhancements, but also from other courses in the program, like working with CRUD operations for a database for information to be kept and used by an online website with MongoDB, as well as working with binary search trees to sort and search through data, using databases like SQLite while working with Android Studio applications, and JUnit and Maven testing while searching through to find and fix dependencies. All of these experiences helped to solidify proper practices in creating secure and clean code. 
+
+# Portfolio Summary
+
+The capstone class for this program focused on choosing artifacts and enhancements in three categories that would display skills acquired throughout the program, which were: 
+
+1. Software Design and Engineering 
+
+2. Algorithms and Data Structures 
+
+3. Databases 
+
+The original artifact chosen for all three enhancements was my CS 360 Android Studio project, which was an app that was created in Java to allow a user to input and track their weight.  
+
+The first enhancement, for the software design and engineering category, set out to change over the original Java code over to a new programming language which was chosen to be Kotlin. This enhancement also focused on cleaning up the existing code to be cleaner and more professional. This particular enhancement set out to demonstrate my ability to adapt an existing program for more modern usage while also focusing on delivering a professional, clean code environment that allowed for more collaborative efforts in the future.  
+
+The second enhancement, for the second category of algorithms and data structures, set out to add a new screen to the existing app which would sort and display the user’s weight data in a graph. As Android Studio lacks the native capacity for this, I used a tool called MPAndroidChart (PhilJay, n.d.) to help. This enhancement demonstrated my ability to seek out and use innovative tools that use algorithmic principles to help solve this given problem, despite design trade-offs due to functionality limitations. 
+
+The third enhancement, for the third and last category of databases, set out to replace the current database of the existing Android Studio app, which was SQLite, with a new database. In this case, using Firebase/Firestore. This enhancement not only used an innovative tool, but also displays that a security mindset is at the forefront, as according to its documentation, the data would automatically be encrypted upon being written to Cloud Firestore (*Server-side encryption / Firestore / Firebase*, n.d.).  
 
 # Code Review
 
-The following code review video goes over the previous original artifact, and goes into each enhancement that will be performed and various improvements that will be implemented.
+The following code review video goes over the original artifact, and goes into each enhancement that will be performed and various improvements that will be implemented.
 
 [CS 499 Code Review](https://www.youtube.com/watch?v=oYhBLnIxIvQ)
 
@@ -96,6 +119,8 @@ The license information below was pulled from the Zetetic website about using th
 
 # References
 PhilJay. (n.d.). *GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.* GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
+
+*Server-side encryption / Firestore / Firebase*. (n.d.) Firebase [https://firebase.google.com/docs/firestore/enterprise/server-side-encryption](https://firebase.google.com/docs/firestore/enterprise/server-side-encryption)
 
 *SQLCipher Community Edition - Open Source Information / Zetetic*. (n.d.). [https://www.zetetic.net/sqlcipher/community/](https://www.zetetic.net/sqlcipher/community/)
 
