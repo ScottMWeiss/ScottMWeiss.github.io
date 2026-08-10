@@ -82,13 +82,13 @@ After Logging In:
 Before the changes, as shown in Image 3 and 4, the database inspector would show the database information cleanly to the user. After implementation:
 
 Logging In After Implementation:
-![Implementation](ScreenshotEncryption2.jpg)
+![Implementation](images/ScreenshotEncryption2.jpg)
 
 In the Logging In After Implementation image, the user.db was closed off to the user after logging in even though the weight database is still viewable, but still able to login using that information stored in the database. 
 
 Overall, there were challenges met with this final enhancement. Some of the initial goals were met, but I definitely learned to do more research on just what specifically will be needed when implementing new features or tools. Moving forward, in the future in order to properly implement the full Firebase/Firestore database, as mentioned earlier I believe the entire program would need to be built up and rewritten with using the new database in mind, implementing more asynchronous programming features such as Kotlin coroutines.
 
-[Original Artifact]() | [Full Narrative]() | [Enhanced Artifact]()
+[Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Original%20Artifact/WeissCS360project3WeightTrackApp.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Four%20Enhancement%20Three%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/WeissCS499EnhancementThree.zip)
 
 The license information below was pulled from the Zetetic website about using the SQLCipher Community Edition of the program. (*SQLCipher Community Edition - Open Source Information | Zetetic*, n.d.)
 [SQLCipher License Information](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/SQLCipher%20License%20Information)
