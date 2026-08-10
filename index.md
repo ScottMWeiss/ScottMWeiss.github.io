@@ -71,9 +71,31 @@ In an attempt to still implement security on the original SQLite database, I imp
 SQLCipher Imports:
 ![SQLCipher](images/ScreenshotEncryption1.jpg)
 
+In the SQLCipher Imports image, after implementing the necessary fields into the Gradle of the application, I transitioned the imports to the new SQLite Database and Helper imports. Initially, before the changes made, the databases would look like below in the Android Studio inspector:
 
+Before Logging In:
+![Before](images/ScreenshotEncryptionBefore.jpg)
+
+After Logging In:
+![After](images/ScreenshotEncryptionAfter.jpg)
+
+Before the changes, as shown in Image 3 and 4, the database inspector would show the database information cleanly to the user. After implementation:
+
+Logging In After Implementation:
+![Implementation](ScreenshotEncryption2.jpg)
+
+In the Logging In After Implementation image, the user.db was closed off to the user after logging in even though the weight database is still viewable, but still able to login using that information stored in the database. 
+
+Overall, there were challenges met with this final enhancement. Some of the initial goals were met, but I definitely learned to do more research on just what specifically will be needed when implementing new features or tools. Moving forward, in the future in order to properly implement the full Firebase/Firestore database, as mentioned earlier I believe the entire program would need to be built up and rewritten with using the new database in mind, implementing more asynchronous programming features such as Kotlin coroutines.
+
+[Original Artifact]() | [Full Narrative]() | [Enhanced Artifact]()
+
+The license information below was pulled from the Zetetic website about using the SQLCipher Community Edition of the program. (*SQLCipher Community Edition - Open Source Information | Zetetic*, n.d.)
+[SQLCipher License Information](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/SQLCipher%20License%20Information)
 
 # References
 PhilJay. (n.d.). *GitHub - PhilJay/MPAndroidChart: A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.* GitHub. [https://github.com/PhilJay/MPAndroidChart/tree/master](https://github.com/PhilJay/MPAndroidChart/tree/master)
+
+*SQLCipher Community Edition - Open Source Information | Zetetic*. (n.d.). [https://www.zetetic.net/sqlcipher/community/](https://www.zetetic.net/sqlcipher/community/)
 
 Yilmaz, V. (2019, November 27). *Kotlin Line Chart.* Medium. [https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1](https://medium.com/@yilmazvolkan/kotlinlinecharts-c2a730226ff1)
