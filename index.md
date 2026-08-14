@@ -62,9 +62,9 @@ Enhanced Code Sample:
 
 The two course outcomes I sought to meet with this enhancement were:
 
-1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+- Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
    
-2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+- Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
 
 The first enhancement I believe was successfully met through this enhancement, by moving the language to a more commonly used app language and maintaining cleaned up code with comments, it allows for a more diverse audience to collaborate on. The second outcome was mostly met, but was fully realized with implementations of the other enhancements as well.
 
@@ -92,13 +92,13 @@ Some challenges that were faced were mainly issues with the tool itself. It’s 
 
 The original course outcome this meant to achieve was the following:
 
-3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
+- Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
    
 I believe this enhancement met this course outcome, as well as helped meet a couple others as well, being:
 
-2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+- Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
    
-4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
    
 As it delivered in terms of visually communicating a clean graph through concise code that used unique tools to implement a solution to a problem.
 
@@ -147,9 +147,9 @@ Overall, there were challenges met with this final enhancement. Some of the init
 
 The two outcomes this enhancement originally sought to achieve were:
 
-4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+- Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
    
-5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+- Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
    
 I would say they were at least partially met. With the writing of data to the new database, it was both using an innovative tool to securely store data, as “Cloud Firestore automatically encrypts all data before it is written to disk.” (Server-side encryption  |  Firestore  |  Firebase, n.d.)
 
