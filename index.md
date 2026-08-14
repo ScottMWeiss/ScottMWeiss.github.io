@@ -151,7 +151,7 @@ The two outcomes this enhancement originally sought to achieve were:
    
 - Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
    
-I would say they were at least partially met. With the writing of data to the new database, it was both using an innovative tool to securely store data, as “Cloud Firestore automatically encrypts all data before it is written to disk.” (*Server-side encryption  /  Firestore  /  Firebase*, n.d.)
+I would say they were at least partially met. With the writing of data to the new database, it was both using an innovative tool to securely store data, as “Cloud Firestore automatically encrypts all data before it is written to disk.” (*Server-side encryption  /  Firestore  /  Firebase*, n.d.) Then, with using SQLCipher to help encrypt local data, these were fully met.
 
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Original%20Artifact/WeissCS360project3WeightTrackApp.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Four%20Enhancement%20Three%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/WeissCS499EnhancementThree.zip)
 
