@@ -26,6 +26,18 @@ The third enhancement, for the third and last category of databases, set out to 
 
 [Self Assessment and Portfolio Summary](https://github.com/ScottMWeiss/CS499/blob/main/CS%20499%20-%20Self%20Assessment%20-%20Weiss.docx)
 
+# Course Outcomes
+
+1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+
+2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
+
+4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+
+5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+
 # Code Review
 
 The following code review video goes over the original artifact, and goes into each enhancement that will be performed and various improvements that will be implemented.
@@ -48,6 +60,14 @@ Enhanced Code Sample:
 
 **Reflection:**  One aspect that was learned was learning all of the different aspects of the new language in how that related to the older code, in how that changed how the code looked overall and in what ways the new code would interact with each other.  One challenge that was faced was ensuring that proper program functionality was maintained through the conversion process. Ensuring to run the project and go through the different steps of the app while watching other screens such as the database entries to ensure none of the aspects of the app were nonfunctional.
 
+The two course outcomes I sought to meet with this enhancement were:
+
+1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.
+   
+2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+
+The first enhancement I believe was successfully met through this enhancement, by moving the language to a more commonly used app language and maintaining cleaned up code with comments, it allows for a more diverse audience to collaborate on. The second outcome was mostly met, but was fully realized with implementations of the other enhancements as well.
+
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Original%20Artifact/WeissCS360Files.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Two%20Enhancement%20One%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%201%20-%20Software%20Design%20and%20Engineering/Enhanced%20Artifact/WeissCS499EnhancementOne.zip)
 
 # Category Two: Algorithms and Data Structures
@@ -69,6 +89,18 @@ In the Graph Fragment Screen Sample, the graph fragment screen is shown running 
 **Reflection:**  Some aspects that I learned were more learning how coding in Kotlin worked and how that interacted with the tool being used to help create the graph, and became more familiar with the new coding style, as well as how to implement new features into Android Studio and how those could be used within the program, which will be helpful moving into the next enhancement with implementing a new database.
 
 Some challenges that were faced were mainly issues with the tool itself. It’s unclear where the underlying issues reside, as a lot of the code base of the tool seems to be from years ago being the latest release is from 2019 so it’s possible there’s compatibility issues with the more modern version of Android Studio, but trying to implement certain aspects were problematic to say the least. One example is I was using test data when initially trying to make sure the created code itself worked before reading data from the database. The x-axis labels would refuse to show up or the code would produce array out of bounds errors if the amount of test data was too small, something I only learned about from an offhand GitHub issue page comment about a week later after multiple attempts to get it to work that wasn’t even about that specific issue. I was using sample arrays of about five entries to initially test the graph, and apparently using about 10 or more data entries in the arrays magically caused it to start working better. Some design choices had to be limited, some attempts to design the graph in certain ways were leading to some of the errors like the out of bounds errors that came up, and it’s still unclear why those issues persisted even after spending too much time researching more into the tool itself, so I had to settle for what I was able to get out of it, even after having to rollback and use an older version of the tool in order to get it to function.
+
+The original course outcome this meant to achieve was the following:
+
+3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.
+   
+I believe this enhancement met this course outcome, as well as helped meet a couple others as well, being:
+
+2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.
+   
+4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+   
+As it delivered in terms of visually communicating a clean graph through concise code that used unique tools to implement a solution to a problem.
 
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Original%20Artifact/WeissCS360Files.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Three%20Enhancement%20Two%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%202%20-%20Algorithms%20and%20Data%20Structures/Enhanced%20Artifact/WeissCS499EnhancementTwo.zip)
 
@@ -111,7 +143,15 @@ Logging In After Implementation:
 
 In the Logging In After Implementation image, the user.db was closed off to the user after logging in even though the weight database is still viewable, but still able to login using that information stored in the database. 
 
-Overall, there were challenges met with this final enhancement. Some of the initial goals were met, but I definitely learned to do more research on just what specifically will be needed when implementing new features or tools. Moving forward, in the future in order to properly implement the full Firebase/Firestore database, as mentioned earlier I believe the entire program would need to be built up and rewritten with using the new database in mind, implementing more asynchronous programming features such as Kotlin coroutines.
+Overall, there were challenges met with this final enhancement. Some of the initial goals were met, but I definitely learned to do more research on just what specifically will be needed when implementing new features or tools. Moving forward, in the future in order to properly implement the full Firebase/Firestore database, as mentioned earlier I believe the entire program would need to be built up and rewritten with using the new database in mind, implementing more asynchronous programming features such as Kotlin co-routines.
+
+The two outcomes this enhancement originally sought to achieve were:
+
+4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+   
+5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.
+   
+I would say they were at least partially met. With the writing of data to the new database, it was both using an innovative tool to securely store data, as “Cloud Firestore automatically encrypts all data before it is written to disk.” (Server-side encryption  |  Firestore  |  Firebase, n.d.)
 
 [Original Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Original%20Artifact/WeissCS360project3WeightTrackApp.zip) | [Full Narrative](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/CS%20499%20-%20Milestone%20Four%20Enhancement%20Three%20Narrative%20-%20Weiss.docx) | [Enhanced Artifact](https://github.com/ScottMWeiss/CS499/blob/main/Artifact%203%20-%20Databases/Enhanced%20Artifact/WeissCS499EnhancementThree.zip)
 
